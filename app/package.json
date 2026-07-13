@@ -9,6 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "icons": "node scripts/gen-icons.mjs",
+    "backup": "node scripts/backup.mjs",
+    "restore": "node scripts/restore.mjs",
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
